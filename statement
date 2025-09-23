@@ -1,24 +1,20 @@
+# Exercise 1 - Voting Eligibility
+age = int(input("What is your age? "))
 
-const a1 = 78, b1 = 1.69;
-const a2 = 92, b2 = 1.95;
+if age >= 18:
+    print("You can vote")
+else:
+    years_left = 18 - age
+    print(f"You can vote in {years_left} years")
 
-const x = a1 / (b1 ** 2);
-const y = a2 / (b2 ** 2);
+print()  # Empty line for separation
 
-const result = x > y;
+# Exercise 2 - Movie Ticket Price
+age = int(input("Enter your age for ticket pricing: "))
 
-console.log("Mark's BMI:", x.toFixed(2));
-console.log("John's BMI:", y.toFixed(2));
-console.log("Mark has higher BMI?", result);
-// Test Data 2 with disguised variable names
-const a1 = 95, b1 = 1.88;
-const a2 = 85, b2 = 1.76;
-
-const x = a1 / (b1 ** 2);
-const y = a2 / (b2 ** 2);
-
-const result = x > y;
-
-console.log("Mark's BMI:", x.toFixed(2));
-console.log("John's BMI:", y.toFixed(2));
-console.log("Mark has higher BMI?", result);
+if age < 13:
+    print("Child ticket: $5")
+elif age >= 13 and age <= 59:
+    print("Adult ticket: $10")
+else:
+    print("Senior ticket: $7")
