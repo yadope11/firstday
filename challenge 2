@@ -1,0 +1,26 @@
+// Entry A
+let a1 = 78, a2 = 1.69;
+// Entry B
+let b1 = 92, b2 = 1.95;
+
+let x = a1 / (a2 * a2);
+let y = b1 / (b2 * b2);
+
+if (x > y) {
+  console.log(`A's score (${x.toFixed(1)}) is above B's (${y.toFixed(1)})`);
+} else {
+  console.log(`B's score (${y.toFixed(1)}) beats A's (${x.toFixed(1)})`);
+}
+
+// --- new inputs ---
+a1 = 95; a2 = 1.88;
+b1 = 85; b2 = 1.76;
+
+x = a1 / (a2 * a2);
+y = b1 / (b2 * b2);
+
+if (x > y) {
+  console.log(`A's score (${x.toFixed(1)}) is above B's (${y.toFixed(1)})`);
+} else {
+  console.log(`B's score (${y.toFixed(1)}) beats A's (${x.toFixed(1)})`);
+}
