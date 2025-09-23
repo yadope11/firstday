@@ -1,4 +1,4 @@
-// Test Data 1 with disguised variable names
+
 const a1 = 78, b1 = 1.69;
 const a2 = 92, b2 = 1.95;
 
