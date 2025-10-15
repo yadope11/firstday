@@ -1,0 +1,45 @@
+1. The internet connects computers globally. The web is a part of it where we access websites.
+2. Client asks for data (like browsers). Server gives the data (like web hosts).
+3. You type a URL → DNS finds IP → request sent → server responds → website loads.
+4. URL has: protocol (http), domain (site name), path (/page), and query (?id=1).
+5. DNS translates domain names into IP addresses so computers can connect.
+6. A computer can browse (client) and run a local server (like XAMPP) at the same time.
+7. Client sends a request → server processes → sends back a response.
+8. Front-end = design, Back-end = logic, Full-stack = both, DevOps = server setup.
+9a. Library = tools you use. Framework = structure you follow.
+9b. Client = user device. Client-side = code running in browser.
+9c. Server = machine. Server-side = code running on server.
+10a. URL – web address
+10b. IP – device ID
+10c. Localhost – your computer
+10d. Port – service channel
+10e. DNS – matches names to IPs
+11. As a BSIT student, web skills help in building systems, apps, and sites used in real-world projects.
+
+✅ Activity 2 – Numbers and Arithmetic (Short Version)
+
+A.
+
+-5 → Integer
+
+0.75 → Decimal
+
+3/5 → Fraction
+
+8² → Exponent
+
+B.
+
+8 + 3 × 4 - 2 = 18
+
+(6 + 2) × 5 = 40
+
+(1/2 + 1/4)² = (3/4)² = 9/16
+
+(-3 + 5)² × (-2) = 4 × -2 = -8
+
+C.
+29 % 6 = 5
+
+D.
+₱45 ÷ ₱12 = 3 tickets (₱36), ₱45 % ₱12 = ₱9 left
