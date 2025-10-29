@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calendar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #e8e8e8;
+            padding: 25px;
+        }
+        #wrapper {
+            width: 920px;
+            margin: 0 auto;
+            background-color: white;
+        }
+        #header {
+            background-color: #1a4d7a;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            font-size: 26px;
+        }
+        .today {
+            background-color: #4a90e2;
+            color: white;
+            font-weight: bold;
+        }
+        #container {
+            padding: 18px;
+        }
+        #left-cal {
+            width: 190px;
+            display: inline-block;
+            vertical-align: top;
+            padding: 12px;
+        }
+        #main-cal {
+            width: 490px;
+            display: inline-block;
+            vertical-align: top;
+            padding: 12px;
+        }
+        #right-cal {
+            width: 190px;
+            display: inline-block;
+            vertical-align: top;
+            padding: 12px;
+        }
+        .day-header {
+            width: 14.28%;
+            display: inline-block;
+            text-align: center;
+            padding: 10px 0;
+            background-color: #2d5f8a;
+            color: white;
+            font-size: 13px;
+        }
+        .day-cell {
+            width: 14.28%;
+            display: inline-block;
+            text-align: center;
+            padding: 22px 0;
+            border: 1px solid #ccc;
+            background-color: #f5f5f5;
+            margin: -1px -1px 0 0;
+        }
+        .side-cal-img {
+            width: 100%;
+            border: 2px solid #999;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">October 2025</div>
+        <div id="container">
+            <div id="left-cal">
+                <img src="sep.jpg" alt="Sep" class="side-cal-img">
+            </div>
+            <div id="main-cal">
+                <div class="day-header">Sun</div>
+                <div class="day-header">Mon</div>
+                <div class="day-header">Tue</div>
+                <div class="day-header">Wed</div>
+                <div class="day-header">Thu</div>
+                <div class="day-header">Fri</div>
+                <div class="day-header">Sat</div>
+                
+                <div class="day-cell"></div>
+                <div class="day-cell"></div>
+                <div class="day-cell"></div>
+                <div class="day-cell">1</div>
+                <div class="day-cell">2</div>
+                <div class="day-cell">3</div>
+                <div class="day-cell">4</div>
+                
+                <div class="day-cell">5</div>
+                <div class="day-cell">6</div>
+                <div class="day-cell">7</div>
+                <div class="day-cell">8</div>
+                <div class="day-cell">9</div>
+                <div class="day-cell">10</div>
+                <div class="day-cell">11</div>
+                
+                <div class="day-cell">12</div>
+                <div class="day-cell">13</div>
+                <div class="day-cell">14</div>
+                <div class="day-cell">15</div>
+                <div class="day-cell">16</div>
+                <div class="day-cell">17</div>
+                <div class="day-cell">18</div>
+                
+                <div class="day-cell">19</div>
+                <div class="day-cell">20</div>
+                <div class="day-cell">21</div>
+                <div class="day-cell">22</div>
+                <div class="day-cell">23</div>
+                <div class="day-cell">24</div>
+                <div class="day-cell">25</div>
+                
+                <div class="day-cell">26</div>
+                <div class="day-cell">27</div>
+                <div class="day-cell">28</div>
+                <div class="day-cell today">29</div>
+                <div class="day-cell">30</div>
+                <div class="day-cell">31</div>
+            </div>
+            <div id="right-cal">
+                <img src="nov.jpg" alt="Nov" class="side-cal-img">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
